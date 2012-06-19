@@ -21,6 +21,8 @@
 		DEB7B0B2158EE55B008FAD48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEB7B090158EE55B008FAD48 /* Foundation.framework */; };
 		DEB7B0BA158EE55B008FAD48 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEB7B0B8158EE55B008FAD48 /* InfoPlist.strings */; };
 		DEB7B0BD158EE55B008FAD48 /* webviewjsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB7B0BC158EE55B008FAD48 /* webviewjsTests.m */; };
+		DEB7B0D1158F0B72008FAD48 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = DEB7B0D0158F0B72008FAD48 /* index.html */; };
+		DEB7B0D3158F0DA4008FAD48 /* JSKicker.js in Resources */ = {isa = PBXBuildFile; fileRef = DEB7B0D2158F0DA4008FAD48 /* JSKicker.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +40,24 @@
 		DEB7B08E158EE55B008FAD48 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DEB7B090158EE55B008FAD48 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DEB7B092158EE55B008FAD48 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DEB7B096158EE55B008FAD48 /* webviewjs-Info.plist */ = {isa = PBXFileReference; path = "webviewjs-Info.plist"; sourceTree = "<group>"; };
+		DEB7B096158EE55B008FAD48 /* webviewjs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "webviewjs-Info.plist"; sourceTree = "<group>"; };
 		DEB7B098158EE55B008FAD48 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DEB7B09A158EE55B008FAD48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DEB7B09C158EE55B008FAD48 /* webviewjs-Prefix.pch */ = {isa = PBXFileReference; path = "webviewjs-Prefix.pch"; sourceTree = "<group>"; };
-		DEB7B09D158EE55B008FAD48 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		DEB7B09C158EE55B008FAD48 /* webviewjs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "webviewjs-Prefix.pch"; sourceTree = "<group>"; };
+		DEB7B09D158EE55B008FAD48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DEB7B09E158EE55B008FAD48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DEB7B0A1158EE55B008FAD48 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		DEB7B0A4158EE55B008FAD48 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		DEB7B0A6158EE55B008FAD48 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		DEB7B0A6158EE55B008FAD48 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DEB7B0A7158EE55B008FAD48 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DEB7B0AE158EE55B008FAD48 /* webviewjsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webviewjsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB7B0AF158EE55B008FAD48 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		DEB7B0B7158EE55B008FAD48 /* webviewjsTests-Info.plist */ = {isa = PBXFileReference; path = "webviewjsTests-Info.plist"; sourceTree = "<group>"; };
+		DEB7B0B7158EE55B008FAD48 /* webviewjsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "webviewjsTests-Info.plist"; sourceTree = "<group>"; };
 		DEB7B0B9158EE55B008FAD48 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DEB7B0BB158EE55B008FAD48 /* webviewjsTests.h */ = {isa = PBXFileReference; path = webviewjsTests.h; sourceTree = "<group>"; };
+		DEB7B0BB158EE55B008FAD48 /* webviewjsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = webviewjsTests.h; sourceTree = "<group>"; };
 		DEB7B0BC158EE55B008FAD48 /* webviewjsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webviewjsTests.m; sourceTree = "<group>"; };
+		DEB7B0D0158F0B72008FAD48 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		DEB7B0D2158F0DA4008FAD48 /* JSKicker.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = JSKicker.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,7 @@
 		DEB7B094158EE55B008FAD48 /* webviewjs */ = {
 			isa = PBXGroup;
 			children = (
+				DEB7B0CF158F0B55008FAD48 /* Resources */,
 				DEB7B09D158EE55B008FAD48 /* AppDelegate.h */,
 				DEB7B09E158EE55B008FAD48 /* AppDelegate.m */,
 				DEB7B0A0158EE55B008FAD48 /* MainStoryboard_iPhone.storyboard */,
@@ -152,6 +157,15 @@
 				DEB7B0B8158EE55B008FAD48 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEB7B0CF158F0B55008FAD48 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DEB7B0D0158F0B72008FAD48 /* index.html */,
+				DEB7B0D2158F0DA4008FAD48 /* JSKicker.js */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +241,8 @@
 				DEB7B099158EE55B008FAD48 /* InfoPlist.strings in Resources */,
 				DEB7B0A2158EE55B008FAD48 /* MainStoryboard_iPhone.storyboard in Resources */,
 				DEB7B0A5158EE55B008FAD48 /* MainStoryboard_iPad.storyboard in Resources */,
+				DEB7B0D3158F0DA4008FAD48 /* JSKicker.js in Resources */,
+				DEB7B0D1158F0B72008FAD48 /* index.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

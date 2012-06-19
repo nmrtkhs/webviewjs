@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<title>webviewjs</title>
+</head>
+<body>
+<div id="wrap">
+<input type="button" value="continuousShotNormal" onclick="continuousShotNormal(3, 10, 10)">
+<input type="button" value="continuousShotFix" onclick="continuousShotFix(3, 10, 10)">
+<a id="JSKicker" href=""></a>
+</div>
+<script src='JSKicker.js'></script>
+<script>
+var continuousShotNormal = function(num, x, y){
+    for(var i=0; i < num; ++i){
+        location.href = "method://JSkicker/setMedalInfo?x=" + x + "&y=" + y;
+    }
+}
+var continuousShotFix = function(num, x, y){
+    for(var i=0; i < num; ++i){
+        JSKicker.shot(x, y);
+    }
+}
+</script>
+</body>
+</html>
